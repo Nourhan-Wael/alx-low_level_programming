@@ -8,12 +8,6 @@
 
 int main(void)
 {
-char a[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-int i = 0;
-while (i < sizeof(a))
-{
-putchar(a[i]);
-i++;
-}
+fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
 return (1);
 }
