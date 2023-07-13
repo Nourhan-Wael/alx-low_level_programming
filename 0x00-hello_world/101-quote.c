@@ -9,9 +9,11 @@
 int main(void)
 {
 char a[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-for (int i = 0; i < sizeof(a); i++)
+int i = 0;
+while (i < sizeof(a))
 {
 putchar(a[i]);
+i++;
 }
 return (1);
 }
