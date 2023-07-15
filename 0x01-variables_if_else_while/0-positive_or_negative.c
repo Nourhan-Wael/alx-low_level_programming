@@ -18,7 +18,7 @@ freopen("input.txt", "r", stdin), freopen("output.txt", "w", stdout);
 
 int main(void)
 {
-Nourhan();
+/*Nourhan();*/
 int n;
 scanf("%d", &n);
 if (n < 0)
