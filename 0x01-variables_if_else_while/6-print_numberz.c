@@ -11,7 +11,7 @@ int main(void)
 	int i = 0;
 	char s[] = "0123456789";
 
-	while (i < sizeof(s))
+	while (i < 10)
 	{
 		putchar(s[i]);
 		i++;
@@ -20,4 +20,3 @@ int main(void)
 
 	return (0);
 }
-
