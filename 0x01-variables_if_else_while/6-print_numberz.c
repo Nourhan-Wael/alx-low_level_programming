@@ -9,11 +9,10 @@
 int main(void)
 {
 	int i = 0;
-	char s[] = "0123456789";
 
-	while (i < 10)
+	while (i <= 9)
 	{
-		putchar(s[i]);
+		putchar(i + '0');
 		i++;
 	}
 	putchar('\n');
