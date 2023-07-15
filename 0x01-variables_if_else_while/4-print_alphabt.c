@@ -12,16 +12,11 @@ int main(void)
 
 	while (i <= 'z')
 	{
-		putchar(i);
+		if (i != 'q' && i != 'e')
+			putchar(i);
 		i++;
 	}
 
-	while (j <= 'Z')
-	{
-		putchar(j);
-		j++;
-	}
-	putchar('\n');
 
 	return (0);
 }
