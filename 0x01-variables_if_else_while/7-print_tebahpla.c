@@ -1,24 +1,3 @@
-void Nourhan(void)
-{
-
-#ifndef ONLINE_JUDGE
-
-freopen("input.txt", "r", stdin), freopen("output.txt", "w", stdout);
-
-#endif
-}
-
-
-
-
-
-
-Nourhan();
-
-
-
-
-
 #include <stdio.h>
 
 /**
@@ -40,13 +19,3 @@ int main(void)
 
 	return (0);
 }
-
-
-
-
-
-
-
-
-
-
