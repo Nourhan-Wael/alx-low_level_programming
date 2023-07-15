@@ -1,3 +1,24 @@
+void Nourhan(void)
+{
+
+#ifndef ONLINE_JUDGE
+
+freopen("input.txt", "r", stdin), freopen("output.txt", "w", stdout);
+
+#endif
+}
+
+
+
+
+
+
+Nourhan();
+
+
+
+
+
 #include <stdio.h>
 
 /**
@@ -8,14 +29,24 @@
 
 int main(void)
 {
-        char i = 'z';
+	char i = 'z';
 
-        while (i >= 'a')
-        {
-                putchar(i);
-                i--;
-        }
-        putchar('\n');
+	while (i >= 'a')
+	{
+		putchar(i);
+		i--;
+	}
+	putchar('\n');
 
-        return (0);
+	return (0);
 }
+
+
+
+
+
+
+
+
+
+
