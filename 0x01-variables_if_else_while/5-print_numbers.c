@@ -8,12 +8,11 @@
 
 int main(void)
 {
-	char i = 'a';
+	int i = 0;
 
-	while (i <= 'z')
+	while (i <= 9)
 	{
-		if (i != 'q' && i != 'e')
-			putchar(i);
+        printf("%d", i);
 		i++;
 	}
 	putchar('\n');
