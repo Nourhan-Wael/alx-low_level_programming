@@ -1,14 +1,6 @@
 #include <stdio.h>
 
-void Nourhan(void)
-{
 
-#ifndef ONLINE_JUDGE
-
-freopen("input.txt", "r", stdin), freopen("output.txt", "w", stdout);
-
-#endif
-}
 
 /**
  * main - Entry point
@@ -18,7 +10,6 @@ freopen("input.txt", "r", stdin), freopen("output.txt", "w", stdout);
 
 int main(void)
 {
-/*Nourhan();*/
 int n;
 scanf("%d", &n);
 if (n < 0)
