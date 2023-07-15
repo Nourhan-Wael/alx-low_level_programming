@@ -15,6 +15,14 @@ int main(void)
 		putchar(i);
 		i++;
 	}
+
+	char j = 'A';
+
+	while (j <= 'Z')
+	{
+		putchar(j);
+		j++;
+	}
 	putchar('\n');
 
 	return (0);
