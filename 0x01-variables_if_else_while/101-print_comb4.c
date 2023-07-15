@@ -8,9 +8,9 @@
 
 int main(void)
 {
-int i = 0, j, k = 7, x;
+int i = 0, j, x;
 
-while (i < 7)
+while (i <= 7)
 {
 j = i + 1;
 while (j <= 8)
@@ -21,18 +21,17 @@ while (x <= 9)
 putchar(i + '0');
 putchar(j + '0');
 putchar(x + '0');
+if (i != 7)
+{
 putchar(',');
 putchar(' ');
+}
 x++;
 }
 j++;
 }
 i++;
 }
-while (k <= 9)
-{
-putchar(k + '0');
-k++;
-}
+putchar('\n');
 return (0);
 }
