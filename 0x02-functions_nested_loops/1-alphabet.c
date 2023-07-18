@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * print_alphabet - print all the alphabet in small
@@ -12,6 +12,7 @@ for (char i = 'a'; i <= 'z'; i++)
 putchar(i);
 putchar('\n');
 }
+
 
 
 
