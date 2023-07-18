@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_to_98 - check the sign of the number
@@ -21,6 +22,7 @@ for (i = n; i > 98; i--)
 printf("%d, ", i);
 }
 printf("98");
+printf("\n");
 }
 
 
