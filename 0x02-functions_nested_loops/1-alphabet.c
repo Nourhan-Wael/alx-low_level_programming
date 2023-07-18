@@ -1,12 +1,24 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphabet - print all the alphabet in small
  *
- * Return: Always 0.
+ * Return: Always 0 (Success)
  */
-int main(void)
+
+void print_alphabet(void)
 {
-    print_alphabet();
-    return (0);
+for (char i = 'a'; i <= 'z'; i++)
+putchar(i);
+putchar('\n');
 }
+
+
+
+
+
+
+
+
+
+
