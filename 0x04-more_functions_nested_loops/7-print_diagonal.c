@@ -12,10 +12,10 @@ int i, j;
 
 for (i = 0; i < n; i++)
 {
-putchar('\\');
-putchar('\n');
+_putchar('\\');
+_putchar('\n');
 for (j = 0; j <= i; j++)
-putchar(' ');
+_putchar(' ');
 }
+_putchar('\n');
 }
-
