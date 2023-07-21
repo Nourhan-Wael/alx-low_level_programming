@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _isdigit - ia a function
+* mul - ia a function
 * @a: is a parameter
 * @b: is a parameter
 * Return: int
