@@ -1,4 +1,3 @@
-
 #include "main.h"
 
 /**
@@ -22,9 +21,9 @@ putchar(str[i]);
 else
 for (i = cn / 2; i < cn; i++)
 {
-putchar(str[i]);
+_putchar(str[i]);
 }
-putchar('\n');
+_putchar('\n');
 }
 
 
