@@ -13,7 +13,7 @@ int x = 0;
 
 while (*s1)
 {
-if (*s1 == *s2)
+if (*s1 != *s2)
 {
 x = ((int)*s1 - 48) - ((int)*s2 - 48);
 break;
