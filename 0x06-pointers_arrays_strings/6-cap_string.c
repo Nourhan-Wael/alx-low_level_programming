@@ -22,7 +22,7 @@ return (c >= 97 && c <= 122);
 int isDelimiter(char c)
 {
 int i;
-char d[] = "\t\n,.!?\"(){}";
+char d[] = "\t\n, ;.!?\"(){}";
 
 for (i = 0; i < 12; i++)
 if (c == d[i])
