@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * create_array - Entry point
  * @c: a parameter
@@ -19,6 +20,5 @@ ptr[i] = c;
 return (ptr);
 }
 }
-
 
 
