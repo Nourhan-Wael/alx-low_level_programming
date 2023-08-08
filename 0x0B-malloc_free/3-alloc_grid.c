@@ -21,7 +21,7 @@ tab[i] = malloc(sizeof(**tab) * width);
 if (tab[i] == 0)
 {
 while (i--)
-free(i);
+free(tab[i]);
 free(tab);
 return (NULL);
 }
