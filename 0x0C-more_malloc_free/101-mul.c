@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
 /**
  * _puts - Entry point
  * @str: a parameter
@@ -20,7 +19,7 @@ i++;
  * @s: a parameter
  * Return: Always 0 (Success)
  */
-void _atoi(const char *s)
+int _atoi(const char *s)
 {
 int sign = 1;
 unsigned long int resp = 0, fn, i;
@@ -79,3 +78,8 @@ print_int(_atoi(argv[1]) * _atoi(argv[2]));
 _putchar('\n');
 return (0);
 }
+
+
+
+
+
