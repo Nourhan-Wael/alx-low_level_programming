@@ -1,3 +1,4 @@
+#include<stdio.h>
 #include "main.h"
 /**
  * _puts - Entry point
@@ -34,7 +35,7 @@ for (i = fn; s[i] >= 48 && s[i] <= 57; i++)
 resp *= 10;
 resp += (s[i] - 48);
 }
-return (sign *resp);
+return (sign * resp);
 }
 
 
