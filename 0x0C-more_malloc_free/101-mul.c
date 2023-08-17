@@ -1,5 +1,7 @@
 #include<stdio.h>
+#include <stdlib.h>
 #include "main.h"
+
 /**
  * _puts - Entry point
  * @str: a parameter
@@ -79,8 +81,4 @@ print_int(_atoi(argv[1]) * _atoi(argv[2]));
 _putchar('\n');
 return (0);
 }
-
-
-
-
 
