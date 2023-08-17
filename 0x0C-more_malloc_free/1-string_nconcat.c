@@ -23,7 +23,7 @@ for (lens2 = 0; s2[lens2] != '\0'; lens2++)
 m = malloc(lens1 + n + 1);
 if (m == NULL)
 return (NULL);
-for (i = 0; s1[lens1] != '\0'; i++)
+for (i = 0; i < lens1; i++)
 m[i] = s1[i];
 for (j = 0; j < n; j++)
 {
