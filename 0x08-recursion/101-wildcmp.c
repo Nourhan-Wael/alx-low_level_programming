@@ -27,8 +27,9 @@ int res = 0;
 
 if (*s1 == 0)
 return (0);
-if (*s2 == *s1)
+if (*s1 == *s2)
 res += wildcmp(s1 + 1, s2 + 1);
+res += inception(s1 + 1, s2);
 return (res);
 }
 
@@ -64,4 +65,5 @@ return (!!ret);
 }
 return (0);
 }
+
 
