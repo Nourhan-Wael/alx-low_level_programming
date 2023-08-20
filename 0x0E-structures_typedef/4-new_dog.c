@@ -44,13 +44,13 @@ return (dest);
  * Return: Always 0.
  */
 
-struct dog_t *new_dog(char *name, float age, char *owner)
+dog_t *new_dog(char *name, float age, char *owner)
 {
-struct dog_t *dog;
+dog_t *dog;
 
 if (!name || age < 0 || !owner)
 return (NULL);
-dog = malloc(sizeof(struct dog_t));
+dog = (dog_t *) malloc(sizeof(dog_t));
 if (dog == NULL)
 return (NULL);
 
@@ -73,5 +73,6 @@ dog->age = age;
 dog->owner = _strcopy(dog->owner, owner);
 return (dog);
 }
+
 
 
