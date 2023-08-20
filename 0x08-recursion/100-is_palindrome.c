@@ -1,4 +1,6 @@
-include "main.h"
+#include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
 /**
  * last_index - check the code
  * @s: parameter
@@ -44,4 +46,5 @@ return (0);
 else
 return (check(s, start + 1, end - 1, mod));
 }
+
 
