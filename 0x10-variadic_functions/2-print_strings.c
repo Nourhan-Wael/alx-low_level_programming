@@ -28,7 +28,11 @@ printf("%s", str);
 if (separator)
 printf("%s", separator);
 }
-printf("%s", va_arg(args, char *));
+str = va_arg(args, char *);
+if (str == NULL || !*str)
+printf("(nil)");
+else
+printf("%s", str);
 va_end(args);
 }
 printf("\n");
