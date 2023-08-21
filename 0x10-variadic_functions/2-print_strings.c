@@ -21,7 +21,7 @@ va_start(args, n);
 for (i = 0; i < n - 1; i++)
 {
 str = va_arg(args, char *);
-if (str == NULL || !*str)
+if (str == NULL)
 printf("(nil)");
 else
 printf("%s", str);
@@ -29,7 +29,7 @@ if (separator)
 printf("%s", separator);
 }
 str = va_arg(args, char *);
-if (str == NULL || !*str)
+if (str == NULL)
 printf("(nil)");
 else
 printf("%s", str);
