@@ -1,9 +1,11 @@
-#include<stdio.h>
+#include <stdlib.h>
+#include <stdio.h>
+
 /**
- * main - Entry point
- * @argc: a parameter
- * @argv: a parameter
- * Return: Always 0 (Success)
+ * main - check the code
+ * @argc: parameter
+ * @argv: parameter
+ * Return: Always 0.
  */
 int main(int argc, char *argv[])
 {
@@ -11,7 +13,7 @@ int sum;
 
 if (argc == 3)
 {
-sum = argv[1] * argv[2];
+sum = atoi(argv[1]) * atoi(argv[2]);
 printf("%d\n", sum);
 }
 else
@@ -19,6 +21,7 @@ else
 printf("Error\n");
 return (1);
 }
+
 return (0);
 }
 
