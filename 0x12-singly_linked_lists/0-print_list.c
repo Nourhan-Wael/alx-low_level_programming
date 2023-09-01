@@ -1,3 +1,4 @@
+#include "lists.h"
 /**
  * print_list - prints a list
  * @h: the integer to print
@@ -22,5 +23,4 @@ size_t print_list(const list_t *h)
 	}
 	return (cn);
 }
-
 
