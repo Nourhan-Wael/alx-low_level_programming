@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <fcntl.h>
 #include <unistd.h>
+#include <sys/stat.h>
 #include "main.h"
 /**
  * create_file - prints a list
@@ -26,4 +27,5 @@ int create_file(const char *filename, char *text_content)
 	close(fd);
 	return (bytes == len ? 1 : -1);
 }
+
 
